@@ -19,6 +19,11 @@ class MainScreenState extends State<MainScreen> {
     TelevisionBnvScreen(),
     FavoriteBnvScreen()
   ];
+  final selectedTitle = const [
+    "Film",
+    "Television",
+    "Favorite"
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +31,7 @@ class MainScreenState extends State<MainScreen> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         automaticallyImplyLeading: false,
-        title: const Text("Film", style: TextStyle(color: Colors.black87)),
+        title: Text(selectedTitle[selectScreen], style: const TextStyle(color: Colors.black87)),
         actions: [
           IconButton(
             icon: const Icon(Icons.search, color: Colors.black87), 
