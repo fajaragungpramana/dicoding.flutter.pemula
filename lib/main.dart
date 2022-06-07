@@ -1,4 +1,4 @@
-import 'package:dicoding_flutter_submission/splash_screen.dart';
+import 'package:dicoding_flutter_submission/ui/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

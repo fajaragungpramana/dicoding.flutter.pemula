@@ -1,6 +1,6 @@
-import 'package:dicoding_flutter_submission/main/favorite/favorite_bnv_screen.dart';
-import 'package:dicoding_flutter_submission/main/film/film_bnv_screen.dart';
-import 'package:dicoding_flutter_submission/main/television/television_bnv_screen.dart';
+import 'package:dicoding_flutter_submission/ui/main/favorite/favorite_bnv_screen.dart';
+import 'package:dicoding_flutter_submission/ui/main/film/film_bnv_screen.dart';
+import 'package:dicoding_flutter_submission/ui/main/television/television_bnv_screen.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {
