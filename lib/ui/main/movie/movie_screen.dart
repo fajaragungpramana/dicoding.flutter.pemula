@@ -1,4 +1,6 @@
 import 'package:dicoding_flutter_submission/model/film.dart';
+import 'package:dicoding_flutter_submission/ui/moviedetail/movie_detail_screen.dart';
+import 'package:dicoding_flutter_submission/util/route_util.dart';
 import 'package:flutter/material.dart';
 
 class MovieScreen extends StatelessWidget {
@@ -24,7 +26,7 @@ class MovieScreen extends StatelessWidget {
             ),
             child: InkWell(
               onTap: () {
-
+                Navigator.of(context).push(RouteUtil().createRoute(MovieDetailScreen(film)));
               },
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,

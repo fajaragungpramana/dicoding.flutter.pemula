@@ -1,5 +1,5 @@
-import 'package:dicoding_flutter_submission/ui/main/favorite/favorite_bnv_screen.dart';
-import 'package:dicoding_flutter_submission/ui/main/film/film_bnv_screen.dart';
+import 'package:dicoding_flutter_submission/ui/main/favorite/favorite_screen.dart';
+import 'package:dicoding_flutter_submission/ui/main/movie/movie_screen.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {
@@ -14,8 +14,8 @@ class MainScreenState extends State<MainScreen> {
   int selectScreen = 0;
 
   final selectedScreen = const [
-    FilmBnvScreen(),
-    FavoriteBnvScreen()
+    MovieScreen(),
+    FavoriteScreen()
   ];
   final selectedTitle = const [
     "Movie",
