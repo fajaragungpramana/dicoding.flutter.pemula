@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class FavoriteBnvScreen extends StatelessWidget {
-  const FavoriteBnvScreen({Key? key}) : super(key: key);
+class FavoriteScreen extends StatelessWidget {
+  const FavoriteScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

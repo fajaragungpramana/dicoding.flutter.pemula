@@ -1,8 +1,8 @@
 import 'package:dicoding_flutter_submission/model/film.dart';
 import 'package:flutter/material.dart';
 
-class FilmBnvScreen extends StatelessWidget {
-  const FilmBnvScreen({Key? key}) : super(key: key);
+class MovieScreen extends StatelessWidget {
+  const MovieScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
